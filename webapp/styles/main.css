@@ -1,0 +1,86 @@
+@charset "ISO-8859-1";
+
+ body {
+ 	background-color: #b1b1b1;
+ }
+ 
+ h1 {
+ 	padding-top: 10px;
+ 	text-align: center;
+ }
+ 
+ .main {
+ 	width: 400px;
+ 	margin: 0 auto;
+ 	margin-bottom: 15px;
+ 	background-color: #5e878e;
+ }
+ 
+ form {
+ 	padding: 10px;
+ }
+ label {
+ 	font-weight:bold;
+ 	display: inline-block;
+ 	width: 100px;
+ 	padding-left: 5px;
+ 	text-align: left;
+ }
+.wb_form {
+
+	margin-bottom: 15px;
+	text-align: center;
+}
+.err{
+	margin: 0;
+	padding-top:0px;
+	padding-bottom: 10px;
+	text-align: center;
+	color:red;
+}
+input[type="number"], input[type="password"], input[type="text"] {
+	width:250px;
+}
+input[type="submit"] {
+	background-color: #f5e596;
+	padding: 5px;
+    border-radius: 5px;
+	color: green;
+	margin-left: 20px;
+    width: 100px;
+    font-weight: bold;
+}
+
+/*format login first page*/
+select {
+	width: 200px;
+	text-align: left;
+}
+.session {
+	margin-bottom: 15px;
+}
+.main_first_login {
+	margin: 0 auto;
+	padding:30px 15px;
+	width: 500px;
+ 	background-color:#5e878e;
+}
+.session input[type = "text"] {
+	width:240px;
+	margin-left:20px;
+}
+.act_btn{
+	margin-top: 30px;
+	text-align: center;
+}
+.first_main input[type="password"] {
+    width: 200px;
+}
+.first_main label {
+    text-align: right;
+    width: 170px;
+}
+
+.first_main {
+    margin-top: 10px;
+}
